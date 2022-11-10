@@ -1,0 +1,67 @@
+body{
+  font-family: 'Nimbus Sans L', sans-serif;
+}
+
+header{
+  margin-bottom: 2.5rem;
+}
+main{
+  margin-bottom: 3rem;
+}
+
+.banner{
+  position:relative;
+}
+.banner .banner__img{
+  width:100%;
+}
+.banner .banner__overlay{
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+.banner .banner__container{
+  position: absolute;
+  left:0;
+  right:0;
+  top:50%;
+  text-align:center;
+  transform:translateY(-50%);
+  color: #fff;
+}
+.banner .banner__header{
+  font-size: calc(2.5rem + 3.3vw);
+  font-weight: 700;
+  letter-spacing: var(--letter-spacing-2);
+  margin-bottom: unset;
+}
+.banner .banner__sub-header{
+  font-size: calc(1rem + 1.6vw);
+  font-weight: 200;
+  letter-spacing: var(--letter-spacing-2);
+}
+
+.card-style1{
+  height: 100%;
+}
+.card-style1 .card-style1__body{
+  display: table;
+}
+.card-style1 .card-style1__text{
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
+}
+.card-style1 .card-style1__action{
+  display: table-row;
+  text-align: center;
+}
+.card-style1 .card-style1__action button{
+  font-size: .875rem;
+}
+
+
+

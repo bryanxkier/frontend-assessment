@@ -1,0 +1,6 @@
+@media only screen and (max-width: 576px) {
+    .card-style1{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
